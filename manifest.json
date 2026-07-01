@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Diix Proxy",
+  "version": "1.0",
+  "description": "Monitor de requisições em tempo real",
+  "permissions": [
+    "webRequest",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
