@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Diix Proxy - Network Monitor",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Monitor profissional de requisições HTTP(S) em tempo real",
   "permissions": [
     "webRequest",
@@ -13,20 +13,20 @@
     "<all_urls>"
   ],
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "background/index.js"
   },
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "icon.png",
-      "48": "icon.png",
-      "128": "icon.png"
+      "16": "icons/devil.png",
+      "48": "icons/devil.png",
+      "128": "icons/devil.png"
     },
     "default_title": "Diix Proxy Monitor"
   },
   "icons": {
-    "16": "icon.png",
-    "48": "icon.png",
-    "128": "icon.png"
+    "16": "icons/devil.png",
+    "48": "icons/devil.png",
+    "128": "icons/devil.png"
   }
 }

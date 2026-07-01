@@ -1,0 +1,31 @@
+/**
+ * Animations - Animações CSS
+ */
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--color-success);
+    animation: pulse 2s infinite;
+}
+
+.request-item {
+    animation: slideIn 0.2s ease;
+}
