@@ -5,7 +5,8 @@
   "description": "Monitor de requisições em tempo real",
   "permissions": [
     "webRequest",
-    "storage"
+    "storage",
+    "webRequestBlocking"
   ],
   "host_permissions": [
     "<all_urls>"
